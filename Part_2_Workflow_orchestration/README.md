@@ -1,6 +1,6 @@
 # Workflow Orchestration:
  
-**Introduction to Workflow orchestration**
+# Introduction to Workflow orchestration
 
 1. What is orchestration?
 Orchestration is the coordination and management of various components or tasks to achieve a specific outcome, often in complex systems such as cloud computing, containerization, or music. It involves ensuring that these components work together harmoniously and efficiently, following a predefined plan or set of rules. Orchestration simplifies complex processes and automates them for greater control and scalability
@@ -34,7 +34,7 @@ m. Alerting and Notifications: Users can configure alerts and notifications to b
 n. API and Integration with Other Tools: They may provide APIs for integrating with other software tools and platforms, facilitating automation and data exchange.
 
 
-**Introduction to Prefect concepts**
+# Introduction to Prefect concepts
 1. What is Prefect?
 -- Prefect is an open-source workflow management system designed for orchestrating and automating data workflows. It is particularly well-suited for ETL (Extract, Transform, Load) and data pipeline tasks. Prefect provides a platform for defining, scheduling, and monitoring complex data workflows, and it offers features for error handling, dependency management, and scalability.
 
@@ -46,14 +46,14 @@ Prefect allows data engineers and data scientists to create and manage workflows
 5. Prefect Tasks
 6. Execute Tasks
 
-**ETL with GCP & Prefect**
+# ETL with GCP & Prefect
 Flow 1: Putting data to Google Cloud Storage
 
-**From Google Cloud Storage to Big Query**
+# From Google Cloud Storage to Big Query
 Flow 2: From GCS to BigQuery
 
 
-**Parametrizing Flow & Deployments**
+# Parametrizing Flow & Deployments
 1. Parametrizing the script from your flow
 2. Parameter validation with Pydantic
 3. Creating a deployment locally
@@ -61,13 +61,13 @@ Flow 2: From GCS to BigQuery
 5. Running the flow
 
 
-**Schedules & Docker Storage with Infrastructure**
+# Schedules & Docker Storage with Infrastructure
 1. Scheduling a deployment
 2. Flow code storage
 3. Running tasks in Docker
 
 
-**Prefect Cloud and Additional Resources**
+# Prefect Cloud and Additional Resources
 1. Using Prefect Cloud instead of local Prefect
 2. Workspaces
 3. Running flows on GCP
