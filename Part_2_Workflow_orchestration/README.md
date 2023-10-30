@@ -3,14 +3,12 @@
 **Introduction to Workflow orchestration**
 
 1. What is orchestration?
+Orchestration is the coordination and management of various components or tasks to achieve a specific outcome, often in complex systems such as cloud computing, containerization, or music. It involves ensuring that these components work together harmoniously and efficiently, following a predefined plan or set of rules. Orchestration simplifies complex processes and automates them for greater control and scalability
    
--- Orchestration is the coordination and management of various components or tasks to achieve a specific outcome, often in complex systems such as cloud computing, containerization, or music. It involves ensuring that these components work together harmoniously and efficiently, following a predefined plan or set of rules. Orchestration simplifies complex processes and automates them for greater control and scalability
+2. Workflow orchestrators vs. other types of orchestrators
+Workflow orchestrators focus on coordinating and automating a series of tasks or processes to streamline business workflows, ensuring they occur in a predefined sequence. In contrast, other types of orchestrators, such as container orchestrators like Kubernetes or cloud orchestrators like Terraform, manage the deployment, scaling, and coordination of resources and services within their respective environments. While workflow orchestrators deal with higher-level processes, other orchestrators are more infrastructure-centric, concentrating on resource allocation and scaling in complex IT ecosystems.
    
-3. Workflow orchestrators vs. other types of orchestrators
-4. 
--- Workflow orchestrators focus on coordinating and automating a series of tasks or processes to streamline business workflows, ensuring they occur in a predefined sequence. In contrast, other types of orchestrators, such as container orchestrators like Kubernetes or cloud orchestrators like Terraform, manage the deployment, scaling, and coordination of resources and services within their respective environments. While workflow orchestrators deal with higher-level processes, other orchestrators are more infrastructure-centric, concentrating on resource allocation and scaling in complex IT ecosystems.
-   
-5. Core features of a workflow orchestration tool
+3. Core features of a workflow orchestration tool
 a. Workflow Design and Modeling: It allows users to define and design workflows graphically or through a code-based interface, specifying the sequence of tasks and their dependencies.
 
 b. Task Execution and Automation: The tool automates the execution of tasks, ensuring they are carried out in the correct order and according to predefined rules.
@@ -41,7 +39,6 @@ n. API and Integration with Other Tools: They may provide APIs for integrating w
 -- Prefect is an open-source workflow management system designed for orchestrating and automating data workflows. It is particularly well-suited for ETL (Extract, Transform, Load) and data pipeline tasks. Prefect provides a platform for defining, scheduling, and monitoring complex data workflows, and it offers features for error handling, dependency management, and scalability.
 
 Prefect allows data engineers and data scientists to create and manage workflows in a Python-centric environment. Workflows are defined as Python code, making it accessible and customizable for those familiar with the Python programming language. Prefect is known for its flexibility, scalability, and user-friendly approach to workflow automation. 
-
 
 2. Installing Prefect
 3. Prefect flow
