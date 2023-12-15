@@ -2,17 +2,21 @@
 
 IE7945 - Project Track
 
-Week 1: Introduction & Prerequisites
-Course overview
-Introduction to GCP
-Docker and docker-compose
-Running Postgres locally with Docker
-Setting up infrastructure on GCP with Terraform
-Preparing the environment for the course
-Homework
-More details
+**Part 1: Introduction & Prerequisites**
 
-Week 2: Data ingestion
+
+Introduction to GCP
+
+Docker and docker-compose
+
+Running Postgres locally with Docker
+
+Setting up infrastructure on GCP with Terraform
+
+Preparing the environment for the Project
+
+
+**Week 2: Data ingestion**
 Data Lake
 Workflow orchestration
 Setting up Airflow locally
